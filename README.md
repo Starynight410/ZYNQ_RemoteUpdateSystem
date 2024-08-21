@@ -1,0 +1,2 @@
+# ZYNQ_RemoteUpdateSystem
+本项目实现FPGA的网口远程固化升级，基于ALINX的ZYNQ固化例程进行二次开发，并且在测试中完成了该功能。并添加了各部分固件升级耗时测试，在写入Flash前进行CRC校验。在本工程中还包含了PC端和ZYNQ PS端的CRC校验实现，固化升级的测试示例为点亮LED。
